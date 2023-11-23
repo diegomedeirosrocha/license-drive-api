@@ -2,7 +2,6 @@ package br.com.diego.licensedriveapi.controller;
 
 import br.com.diego.licensedriveapi.dto.LicenseDto;
 import br.com.diego.licensedriveapi.dto.LicenseResponseDto;
-import br.com.diego.licensedriveapi.dto.TesteDto;
 import br.com.diego.licensedriveapi.mapper.LicenseMapper;
 import br.com.diego.licensedriveapi.service.LicenseService;
 import io.swagger.v3.oas.annotations.Operation;
