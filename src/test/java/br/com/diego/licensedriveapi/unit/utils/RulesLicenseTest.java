@@ -47,7 +47,7 @@ class RulesLicenseTest {
                     rulesLicense.validate(55, "XXX");
                 });
 
-        assertThat(exception.getMessage(), containsString("UF dont is valid -LLLLLLLLLLLLLLLLL"));
+        assertThat(exception.getMessage(), containsString("UF dont is valid"));
         assertThat(exception.getMessage(), containsString("404"));
     }
 

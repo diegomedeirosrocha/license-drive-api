@@ -48,7 +48,7 @@ public class RulesLicense {
         try {
             UF.fromSigla( uf );
         } catch ( IllegalArgumentException e) {
-            throw new ResponseStatusException( HttpStatus.NOT_FOUND, "UF dont is valid -LLLLLLLLLLLLLLLLL");
+            throw new ResponseStatusException( HttpStatus.NOT_FOUND, "UF dont is valid");
         }
     }
 }
